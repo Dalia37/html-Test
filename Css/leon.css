@@ -1,0 +1,270 @@
+/* Start global rules */
+
+/* do not calculate padding and margin */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #F5F5F5;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+/* small */
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+    
+}
+/* medium */
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+    
+}
+
+/* Larg */
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }
+    
+}
+
+.image{
+
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  
+  }
+
+
+  .logo{
+    
+    margin-left: 25px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+
+   
+  }
+  .header .Navigation{
+   
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+
+   
+  }
+   .header .Navigation li{
+
+
+    list-style: none;
+    margin: 0 30px;
+    display: inline-block;
+    font-size: 17px;
+  
+
+  } 
+  .header .Navigation a{
+    color: #0F185C;
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 1px;
+  }
+  .header .search{
+    position: relative;
+    width: 200px;
+    height: 10px;
+  }
+  .header .search input{
+    position: absolute;
+    width: 128px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    color: #0F185C ;
+    border: 1px solid #848181 ;
+    border-radius: 4px;
+    padding: 0 45px 0 10px;
+
+  }
+  .header .search .fa-solid{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 100%;
+    transform: translateY(-50%); 
+    left: 50%;
+    color:#848181 ;
+    align-items: center;
+    border-left: 1.5px solid #848181;
+    padding-top: 10px;
+  
+   
+  }
+ /* login card */
+ .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background: #FFFFFF ;
+    width: 400px;
+     /* height: 474px ; */
+    border-radius: 16px;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+ }
+p{
+
+   text-align: center;
+    font-family: lato;
+   margin-top: 25px;
+   padding: 0 0 20 0;
+   margin-bottom: 20px;
+   font-size: 16px;
+   color: #16227B;
+   font-style: normal;
+   
+   
+ 
+ }
+ .card form{
+    padding: 0 40px; 
+    box-sizing: border-box;
+    gap: 8px;
+ }
+ .card .google-btn{
+    width: 300px;
+    height: 30px;
+    background: #F0F2F5;
+    border-radius: 42px;
+    border: 1px solid #F0F2F5;
+    color: #000000;
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    
+
+ }
+ .input{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  
+ }
+ .input label{
+  display: flex;
+  margin-bottom: 5px;
+  font-size: 15px;
+  
+ }
+ .input  input{
+width: 320px;
+height: 40px;
+background-color: #F0F2F5;
+border-radius: 8px;
+border-color: #F0F2F5;
+
+
+}
+.input  input:focus{
+  border-color:#1799F1;
+  outline: none;
+}
+
+
+a{
+  text-decoration: none;
+  color: #16227B;
+  font-style: normal;
+  font-weight: 400px;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  flex: none;
+  order: 0;
+flex-grow: 0;
+
+
+}
+a:hover{
+  color: #1799F1;
+}
+.checkbox{
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.other{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: calc(1rem * .8);
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+.footer{
+  margin-top:10px;
+  font-size: calc(1rem * .8);
+  align-items: center;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  align-self: center;
+  margin-left: 50px;
+
+
+  font-family: lato;
+ margin-top: 10px;
+ padding: 0 0 20 0;
+ margin-bottom: 50px;
+
+
+}
+
+.card .btn{
+  width: 320px;
+  height: 38px;
+  background: #16227B;
+  color: white;
+  padding: 1rem;
+  border-radius: 25px;
+  align-items: center;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+  line-height: 10px;
+
+}
+.card .btn:hover{
+  background: #1799F1;
+}
+
+
+
+
+
+
+
